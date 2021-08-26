@@ -148,7 +148,7 @@ public class TableroTriki extends JFrame{
                 }else{
                     // Validar seguir jugando para cambiar turno o hubo empate
                     if (cantidad_jugadas==9) {
-                        System.out.println("Se presento un Empate");
+                        System.out.println("Se ha presentado un empate entre los jugadores");
                         setEnabled(false);
                         MensajeGanador mensaje = new MensajeGanador(TableroTriki.this);
                     }else{
